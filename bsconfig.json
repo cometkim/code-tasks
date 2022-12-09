@@ -1,0 +1,25 @@
+{
+  "name": "core",
+  "version": "0.1.0",
+  "suffix": ".bs.js",
+  "sources": {
+    "dir" : "src",
+    "subdirs" : true
+  },
+  "package-specs": {
+    "module": "commonjs",
+    "in-source": true
+  },
+  "reason": { "react-jsx": 3 },
+  "bsc-flags": [
+    "-open ReScriptStruct"
+  ],
+  "bs-dependencies": [
+    "@rescript/react",
+    "rescript-ink",
+    "rescript-struct"
+  ],
+  "bs-dev-dependencies": [
+    "rescript-vitest"
+  ]
+}

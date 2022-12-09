@@ -1,0 +1,14 @@
+{
+  "name": "code-tasks",
+  "packageManager": "yarn@3.3.0",
+  "dependencies": {
+    "@rescript/react": "^0.10.3",
+    "rescript": "^10.0.1",
+    "rescript-ink": "^1.2.0",
+    "rescript-struct": "^3.0.1"
+  },
+  "devDependencies": {
+    "rescript-vitest": "^0.3.1",
+    "vite": "^4.0.0"
+  }
+}

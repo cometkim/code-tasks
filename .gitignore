@@ -1,11 +1,10 @@
 .DS_Store
 .bsb.lock
-.merlin
 *.log
 lib/bs/
+*.res.js
 
 node_modules/
-
 .yarn/*
 !.yarn/patches
 !.yarn/plugins

@@ -1,25 +1,26 @@
 {
-  "name": "core",
+  "name": "code-tasks",
   "version": "0.1.0",
-  "suffix": ".bs.js",
+  "suffix": ".res.js",
   "sources": {
     "dir" : "src",
     "subdirs" : true
   },
   "package-specs": {
-    "module": "commonjs",
+    "module": "esmodule",
     "in-source": true
   },
-  "reason": { "react-jsx": 3 },
   "bsc-flags": [
-    "-open ReScriptStruct"
+    "-open RescriptSchema"
+  ],
+  "ppx-flags": [
+    "rescript-schema-ppx/bin"
   ],
   "bs-dependencies": [
     "@rescript/react",
     "rescript-ink",
-    "rescript-struct"
+    "rescript-schema"
   ],
   "bs-dev-dependencies": [
-    "rescript-vitest"
   ]
 }
